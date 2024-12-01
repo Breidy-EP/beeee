@@ -23,7 +23,7 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
+        habilidades[2].classList.add("diseñador");
         habilidades[3].classList.add("cbuilder");
         habilidades[4].classList.add("comunicacion");
         habilidades[5].classList.add("trabajo");
