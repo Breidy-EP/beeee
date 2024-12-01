@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #c887dc;
+    background: #834A7D;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #834A7D;
+    color: #F6B0EA;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -107,7 +107,7 @@ html{
     background-color: #FFF;
 }
 .sobremi{
-    background-color: #1e2326;
+    background-color: #834A7D;
     color: #fff;
     padding: 50px 20px;
 }
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #d541db;
+    color: #721466;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +151,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #e364b7;
+    color: #721466;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #83156d;
+    background-color: #721466;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -167,7 +167,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: #834A7D;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -210,7 +210,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #313a3c;
+    background-color: #834A7D;
     color: #fff;
     padding: 50px 20px;
 }
@@ -250,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #8e1264;
+    background-color: #F6B0EA;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +260,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #98146c;
+    background-color: #380930;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -287,11 +287,11 @@ html{
     100%{width: 51%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .diseñador{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s diseñador forwards;
 }
-@keyframes photoshop {
+@keyframes diseñador {
     0%{width: 0%;}
     100%{width: 65%;}
 }
@@ -351,7 +351,7 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: #834A7D;
     color: #fff;
     padding: 50px 20px;
 }
@@ -380,10 +380,10 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid #F6B0EA;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid #F6B0EA;
 }
 .curriculum .fila .item{
     padding: 25px;
@@ -396,30 +396,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #c11aab;
+    color: #F6B0EA;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #7d0c63;
+    color: #F6B0EA;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #ca27ac;
+    border-right: 2px solid #F6B0EA;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #ad1b88;
+    border-left: 2px solid #F6B0EA;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #c51e9b;
+    background-color: #F6B0EA;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -431,14 +431,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #8f1459;
+    background-color: #F6B0EA;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #761364;
+    background-color: #F6B0EA;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -450,14 +450,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #b61c95;
+    background-color: #F6B0EA;
     float: left;
     position: relative;
     bottom: 4px;
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color: #834A7D;
     color: #fff;
     padding: 50px 20px;
 }
@@ -493,7 +493,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(134, 17, 138, 0.8), rgba(130, 17, 122, 0.8));
+    background: linear-gradient(rgba(234, 227, 234, 0.8), rgba(130, 17, 122, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -515,7 +515,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #834A7D;
     color: #fff;
     padding: 50px 0;
 }
@@ -543,8 +543,8 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
+    background-color: #F6B0EA;
+    color: #380930;
     font-size: 18px;
 }
 .contacto button{
@@ -566,7 +566,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #640d5a;
+    background-color: #380930;
     z-index: -1;
     transition: 1s;
 }
@@ -579,7 +579,7 @@ html{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252A2E;
+    background-color: #F6B0EA;
     padding: 20px;
     max-width: 350px;
     left: 50%;
@@ -592,13 +592,13 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #9a1283;
+    color: #834A7D;
     display: inline-block;
     margin-right: 20px;
 }
 footer{
-    background-color: #252A2E;
-    color: #fff;
+    background-color: #F6B0EA;
+    color: #834A7D;
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -608,10 +608,10 @@ footer .redes{
     margin-bottom: 20px;
 }
 footer .redes a{
-    color: #fff;
+    color: #834A7D;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid #834A7D;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -624,8 +624,8 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #7f1387;
-    color: #fff;
+    background-color: #380930;
+    color: #F6B0EA;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
