@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #834A7D;
+    background: #c887dc;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #F6B0EA;
+    color: #834A7D;
     text-decoration: none;
 }
 .contenedor-header header ul{
